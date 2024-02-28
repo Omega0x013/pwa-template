@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<title>PWA-Template</title>
+<link rel="icon" href="icon.png">
+<!-- Import our manifest file, -->
+<link rel="manifest" href="app.webmanifest" crossorigin="use-credentials">
+<script>
+    // If service worker is available, register it to this page.
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register("serviceworker.js");
+    }
+</script>
+
+Hello World!

@@ -1,0 +1,11 @@
+{
+  "name": "pwa-template",
+  "version": "1.0.0",
+  "description": "A very nice progressive web app",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm x serve public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ExampleAuthor"
+}

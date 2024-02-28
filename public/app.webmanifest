@@ -1,0 +1,18 @@
+{
+    "name": "PWA-Template",
+    "short_name": "PWA",
+    "start_url": "/",
+    "scope": "/",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "lang": "en",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "icon.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "maskable": "true"
+        }
+    ]
+}
